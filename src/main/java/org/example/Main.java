@@ -4,10 +4,11 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        ImageProcessing imageProcessing = new ImageProcessing();
+        ImageProcessing img = new ImageProcessing();
         try {
-            imageProcessing.read("thailand1.jpg");
-            imageProcessing.write("thailand2.jpg");
+            img.read("thailand1.jpg");
+            img.increaseBrightness(50);
+            img.write("thailand2.jpg");
         } catch (IOException e) {
             e.printStackTrace();
         }

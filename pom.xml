@@ -19,4 +19,5 @@
             <url>https://maven.pkg.github.com/lwrb172/Image</url>
         </repository>
     </distributionManagement>
+
 </project>
