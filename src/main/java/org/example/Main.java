@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         ImageProcessing imageProcessing = new ImageProcessing();
         try {
-            imageProcessing.read("thailand.jpg");
+            imageProcessing.read("thailand1.jpg");
             imageProcessing.write("thailand2.jpg");
         } catch (IOException e) {
             e.printStackTrace();
